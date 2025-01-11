@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # Token de verificación y acceso
 VERIFY_TOKEN = '83cd232796b9046cf832323f696c69d2'  # Define tu token aquí
-ACCESS_TOKEN = 'IGAAOFbcVgyD5BZAFBkenhZAOC04WDYxMEQ3SVVLVi05THF4VmQyZAnJHUWZA6cXZAza1lyR3NTeE5KRzFyeTJzejd2MUNsTkRzakFwMGhFUnpXeE9ocTRETHdUT2JDWXk5RXhhcGxxTHJSVGVuTVd5aU12RGlzWkRYOTlqVjItNGlHTQZDZD'  # Reemplaza con tu token generado en Meta
+ACCESS_TOKEN = 'IGAAOFbcVgyD5BZAFBEczBBdkRmWHgza3Y0V09uNVJEWEQxMVJqNm5uSWJhcVNLMlNwcVdiMHR6eTRBMGtaWWZADUFFVVkhTX3poeHNYT0ZAUeDUzM01fcEVZASW5IbDNJWmNMSEs4elQwV3A2cDNRSXozZAFNQZAEJ3a0JsWHI5WmRINAZDZD'  # Reemplaza con tu token generado en Meta
 
 # Ruta raíz para mensaje de bienvenida
 @app.route('/', methods=['GET'])
